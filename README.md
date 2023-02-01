@@ -2,7 +2,7 @@
 
 **New:**
 
-Starting with SecureCRT version 9.3, the size of the regular expression was increased.  
+Starting with SecureCRT version 9.3, the length of the regular expression for each line was increased.  
 
 feralpacket2023.ini will start using longer regular expressions.  This will allow me to do some consolidation and reduce the number of lines.  
 
