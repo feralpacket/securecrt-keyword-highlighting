@@ -1,13 +1,29 @@
 # securecrt-keyword-highlighting
 
-Been meaning to upload these to github.  My original blog post.
+**New:**
+
+Starting with SecureCRT version 9.3, the size of the regular expression was increased.  
+
+feralpacket2023.ini will start using longer regular expressions.  This will allow me to do some consolidation and reduce the number of lines.  
+
+Note, the regular expressions I had been using where up to 256 characters long.  **shrug**
+
+From SecureCRT_HISTORY.TXT:
+
+  > - Increased the character limit for keywords from 246 to 2048,
+  >   which allows more complex regular expressions to be specified
+  >  for keyword highlighting.
+
+
+
+**My original blog post.**
 
 https://feralpacket.org/?p=299
 
-Updated blog post:
+**Updated blog post.**
 
 https://feralpacket.org/?p=817
 
-Contains an updated .ini file that I shared with the Routergods and Art of Network Engineering communities.
+This contains an updated .ini file that I shared with the Routergods and Art of Network Engineering communities.
 
 http://dentonj.freeshell.org/
