@@ -16,15 +16,15 @@ From SecureCRT_HISTORY.TXT:
 
 
 
-**My original blog post.**
+My original blog post.
 
-SecureCRT Text Highlighting
+**SecureCRT Text Highlighting**
 
 https://feralpacket.org/?p=299
 
-**Updated blog post.**
+Updated blog post.
 
-Regular Expressions For SecureCRT Keyword Highlighting – Update
+**Regular Expressions For SecureCRT Keyword Highlighting – Update**
 
 https://feralpacket.org/?p=817
 
