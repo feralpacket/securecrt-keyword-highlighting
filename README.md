@@ -19,12 +19,15 @@ From SecureCRT_HISTORY.TXT:
 **My original blog post.**
 
 SecureCRT Text Highlighting
+
 https://feralpacket.org/?p=299
 
 **Updated blog post.**
 
 Regular Expressions For SecureCRT Keyword Highlighting – Update
+
 https://feralpacket.org/?p=817
+
 
 This contains an updated .ini file that I shared with the Routergods and Art of Network Engineering communities.
 
