@@ -37,7 +37,7 @@ http://dentonj.freeshell.org/
 
 ## Making Changes
 
-Every so often, someone emails me a version of an .ini file that the edited directly.  Please, don't do that.  Not only do you have to consider whether your regex changes actually worked.  But you also have to make sure you didn't mess up the format of the .ini file.  Make any changes inside of the app.
+Every so often, someone emails me a version of an .ini file that they edited directly.  Please, don't do that.  Not only do you have to consider whether your regex changes actually worked.  But you also have to make sure you didn't mess up the format of the .ini file.  Make any changes inside of the app.
 
 There are multiple was of getting there.  But there is only one .ini file or list name that you are editing.  My preferred way is through **Options -> Session Options.**
 
