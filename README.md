@@ -63,15 +63,10 @@ As a code block:
 ! before
 ((Fifty|Forty|(Four|Two)?Hundred|Ten|TwentyFive)GigE\d{1,3}(/\d{1,3})*(\.\d{1,10})*|((Forty|Ten|App)*Gigabit|Fast)*Ethernet\d{1,3}(/\d{1,3})*(\.\d{1,10})*|(Internal\-(Control|Data)|Management|Cellular|IPStorage|Serial|Twe|Eth|Hu|Tw|Fo|Te(n)?|Gi(g)?|Fa|Et|Se|Ap|Ce|FH|TH|Fi|TF)\d{1,3}(/\d{1,3})*(\.\d{1,10})*(:0)?)
 
-
-
-
 ! after
 ((Fifty|Forty|(Four|Two)?Hundred|Ten|TwentyFive)GigE\d{1,3}(/\d{1,3})*(\.\d{1,10})*|((Forty|Ten|App)*Gigabit|Fast)*Ethernet\d{1,3}(/\d{1,3})*(\.\d{1,10})*|(Internal\-(Control|Data)|Management|Cellular|IPStorage|Serial|Ap|Ce|Et(h)?|Gi(g)?|Hu|Se|Fo(u)?|F[aHi]|Te(n)?|Tw(e)?|T[FH])\d{1,3}(/\d{1,3})*(\.\d{1,10})*(:0)?)
 
-
 Twe|Eth|Hu|Tw|Fo|Te(n)?|Gi(g)?|Fa|Et|Se|Ap|Ce|FH|TH|Fi|TF
-
 
 |Ap|Ce|Et|Eth|Gi(g)?|Hu|Se
 |Ap|Ce|Et(h)?|Gi(g)?|Hu|Se|Fo(u)?|F[aHi]|Te(n)?|Tw(e)?|T[FH]
