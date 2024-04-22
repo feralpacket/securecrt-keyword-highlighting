@@ -18,13 +18,13 @@ From SecureCRT_HISTORY.TXT:
 
 
 
-## My original blog post from 2016.
+### My original blog post from 2016
 
 **SecureCRT Text Highlighting**
 
 https://feralpacket.org/?p=299
 
-## Updated blog post from 2019.
+### Updated blog post from 2019
 
 **Regular Expressions For SecureCRT Keyword Highlighting – Update**
 
