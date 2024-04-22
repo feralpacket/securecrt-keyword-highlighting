@@ -57,6 +57,51 @@ Here are my notes from when I realized that FourHunderdGigE interfaces used "Fou
 
 ![alt text](editing_regex.png)
 
+As a code block:
+
+```
+! before
+((Fifty|Forty|(Four|Two)?Hundred|Ten|TwentyFive)GigE\d{1,3}(/\d{1,3})*(\.\d{1,10})*|((Forty|Ten|App)*Gigabit|Fast)*Ethernet\d{1,3}(/\d{1,3})*(\.\d{1,10})*|(Internal\-(Control|Data)|Management|Cellular|IPStorage|Serial|Twe|Eth|Hu|Tw|Fo|Te(n)?|Gi(g)?|Fa|Et|Se|Ap|Ce|FH|TH|Fi|TF)\d{1,3}(/\d{1,3})*(\.\d{1,10})*(:0)?)
+
+
+
+
+! after
+((Fifty|Forty|(Four|Two)?Hundred|Ten|TwentyFive)GigE\d{1,3}(/\d{1,3})*(\.\d{1,10})*|((Forty|Ten|App)*Gigabit|Fast)*Ethernet\d{1,3}(/\d{1,3})*(\.\d{1,10})*|(Internal\-(Control|Data)|Management|Cellular|IPStorage|Serial|Ap|Ce|Et(h)?|Gi(g)?|Hu|Se|Fo(u)?|F[aHi]|Te(n)?|Tw(e)?|T[FH])\d{1,3}(/\d{1,3})*(\.\d{1,10})*(:0)?)
+
+
+Twe|Eth|Hu|Tw|Fo|Te(n)?|Gi(g)?|Fa|Et|Se|Ap|Ce|FH|TH|Fi|TF
+
+
+|Ap|Ce|Et|Eth|Gi(g)?|Hu|Se
+|Ap|Ce|Et(h)?|Gi(g)?|Hu|Se|Fo(u)?|F[aHi]|Te(n)?|Tw(e)?|T[FH]
+
+|Ap
+|Ce
+|Et
+|Eth
+|Gi(g)?
+|Hu
+|Se
+
+|Te(n)?|TF|TH|Tw|Twe
+|Te(n)?|Tw(e)?|T[FH]|
+!|T[eFHW]([ne])?|
+|Te(n)?
+|TF
+|TH
+|Tw
+|Twe
+
+|Fa|Fo|FH|Fi
+|Fo(u)?|F[aHi]|
+!|F[aoHi](u)?|
+|Fa
+|Fo
+|FH
+|Fi
+```
+
 When you are done with your changes, copy your new regex back into the **Edit Keyword** box and save.  Then check to see if the chanes you wanted took affect.  Sometimes you have to scroll the text off of the screen and back before the changes highlight the new text.
 
 Because your changes are made to the .ini file, any sessions that uses that .ini file or list name will have the updated changes.  You don't need to change the Default Session.
