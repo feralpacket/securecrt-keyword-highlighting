@@ -101,7 +101,7 @@ When you are done with your changes, copy your new regex back into the **Edit Ke
 
 Because your changes are made to the .ini file, any sessions that uses that .ini file or list name will have the updated changes.  You don't need to change the Default Session.
 
-The changes I made to feralpacket2024.ini for the new interface short name.
+The changes I made to **feralpacket2024.ini** for the new interface short name.
 
 ![alt text](feralpacket2024_change.png)
 
