@@ -39,11 +39,11 @@ http://dentonj.freeshell.org/
 
 Every so often, someone emails me a version of an .ini file that the edited directly.  Please, don't do that.  Not only do you have to consider whether your regex changes actually worked.  But you also have to make sure you didn't mess up the format of the .ini file.  Make any changes inside of the app.
 
-There are multiple was of getting there.  But there is only one .ini file or list name that you are editing.  My preferred way is through Options -> Session Options.
+There are multiple was of getting there.  But there is only one .ini file or list name that you are editing.  My preferred way is through **Options -> Session Options.**
 
 ![Session Options](session_options.png)
 
-Then go to Terminal -> Keyword Highlighting.  Click on the line you want to edit to get the Edit Keyword box.  You can make changes here, but I don't recommend it.  Copy the line to a text file and make the changes there.  
+Then go to **Terminal -> Keyword Highlighting**.  Click on the line you want to edit to get the **Edit Keyword** box.  You can make changes here, but I don't recommend it.  Copy the line to a text file and make the changes there.  
 
 ![Keyword Highlighting](keyword_highlighting.png)
 
@@ -57,7 +57,7 @@ Here are my notes from when I realized that FourHunderdGigE interfaces used "Fou
 
 ![alt text](editing_regex.png)
 
-When you are done with your changes, copy your new regex back into the Edit Keywork box and save.  Then check to see if the chanes you wanted took affect.  Sometimes you have to scroll the text off of the screen and back before the changes highlight the new text.
+When you are done with your changes, copy your new regex back into the **Edit Keyword** box and save.  Then check to see if the chanes you wanted took affect.  Sometimes you have to scroll the text off of the screen and back before the changes highlight the new text.
 
 Because your changes are made to the .ini file, any sessions that uses that .ini file or list name will have the updated changes.  You don't need to change the Default Session.
 
