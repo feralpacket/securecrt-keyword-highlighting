@@ -63,7 +63,7 @@ Because your changes are made to the .ini file, any sessions that uses that .ini
 
 The changes I made to feralpacket2024.ini for the new interface short name.
 
-![alt text](feralpacket2024_history.png)
+![alt text](feralpacket2024_change.png)
 
 Testing hint:  You don't need to have the proper show command to test your changes.  If you know what the text that you want highlighted should look like, just type it in at the cli.
 
