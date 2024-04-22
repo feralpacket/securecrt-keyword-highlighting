@@ -2,9 +2,11 @@
 
 **New:**
 
+Added **feralpacket_iosxr_2024.ini**.  These are changes for IOS XR.  Not sure if there will end up being some conflicting regex I use for IOS and IOS XE.  So, I'm creating a separate .ini just in case.  Work in progress.  Will probably not be complete until some time after the CCIE SP bootcamp I'm attending this June.
+
 Starting with SecureCRT version 9.3, the length of the regular expression for each line was increased.  
 
-feralpacket2023.ini ( and feralpacket2024.ini ) will start using longer regular expressions.  This will allow me to do some consolidation and reduce the number of lines.  Maybe, someday. 
+**feralpacket2023.ini** ( and **feralpacket2024.ini** ) will start using longer regular expressions.  This will allow me to do some consolidation and reduce the number of lines.  Maybe, someday. 
 
 Note, the regular expressions I had been using where up to 256 characters long.  **shrug**
 
