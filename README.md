@@ -41,13 +41,13 @@ Every so often, someone emails me a version of an .ini file that they edited dir
 
 There are multiple was of getting there.  But there is only one .ini file or list name that you are editing.  My preferred way is through **Options -> Session Options.**
 
-![Session Options](session_options.png)
+![Session Options](resources/session_options.png)
 
 Then go to **Terminal -> Keyword Highlighting**.  Click on the line you want to edit to get the **Edit Keyword** box.  You can make changes here, but I don't recommend it.  Copy the line to a text file and make the changes there.  
 
-![Keyword Highlighting](keyword_highlighting.png)
+![Keyword Highlighting](resources/keyword_highlighting.png)
 
-![alt text](edit_keyword.png)
+![alt text](resources/edit_keyword.png)
 
 I have a **! before** section with the regex before I start making changes.  There have been times my changes ended up not working and I just made a mess.  If that happens, you can copy the before state of the regex back.
 
@@ -55,7 +55,7 @@ I have an **! after** section.  This is were I make my changes.  Sometimes, I'll
 
 Here are my notes from when I realized that FourHunderdGigE interfaces used "Fou" for the short version of the interface name.  I also used this addition as a good time to clean up the regex.
 
-![alt text](editing_regex.png)
+![alt text](resources/editing_regex.png)
 
 As a code block:
 
@@ -103,7 +103,7 @@ Because your changes are made to the .ini file, any sessions that uses that .ini
 
 The changes I made to **feralpacket2024.ini** for the new interface short name.
 
-![alt text](feralpacket2024_change.png)
+![alt text](resources/feralpacket2024_change.png)
 
 Testing hint:  You don't need to have the proper show command to test your changes.  If you know what the text that you want highlighted should look like, just type it in at the cli.
 
