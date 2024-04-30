@@ -107,7 +107,7 @@ The changes I made to **feralpacket2024.ini** for the new interface short name.
 
 Testing hint:  You don't need to have the proper show command to test your changes.  If you know what the text that you want highlighted should look like, just type it in at the cli.
 
-![alt text](cli_test.png)
+![alt text](resources/cli_test.png)
 
 
 ## FAQ
