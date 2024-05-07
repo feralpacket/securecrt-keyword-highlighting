@@ -2,8 +2,13 @@
 
 ## New:
 
+### Borked
+At some point, the line Z:"Keyword List V2" ended up in the .ini files, twice.  Causes the files to be twice as long.  Also means only half the the regular expressions were being used, the bottom half.  Which was causing a lot of confusion for me.  Copied and pasted each regular expression line out and back into a new list name.
+
+### IOS XR
 Added **feralpacket_iosxr_2024.ini**.  These are changes for IOS XR.  Not sure if there will end up being some conflicting regex I use for IOS and IOS XE.  So, I'm creating a separate .ini just in case.  Work in progress.  Will probably not be complete until some time after the CCIE SP bootcamp I'm attending this June.
 
+### Regular Expression Length
 Starting with SecureCRT version 9.3, the length of the regular expression for each line was increased.  
 
 **feralpacket2023.ini** ( and **feralpacket2024.ini** ) will start using longer regular expressions.  This will allow me to do some consolidation and reduce the number of lines.  Maybe, someday. 
