@@ -18,7 +18,7 @@ One of the problems of syntax highlighting is matching or coloring too much.  It
 
 ![SecureCRT - Phrases and substrings](resources/show_interface_phrases.png)
 
-![SecureCRT - Whole Words](resources/show_interface_whole_words.png)
+![SecureCRT - Whole Words](resources/show_interfaces_whole_words.png)
 
 Uploaded feralpacket2024_phrases.ini.  Place in the usual spot in %appdata%\VanDyke\Config\Keywords.
 
