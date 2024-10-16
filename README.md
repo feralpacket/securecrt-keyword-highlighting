@@ -2,6 +2,40 @@
 
 ## New:
 
+### Phrases and substrings
+
+I've been using VIMs syntax highlighting for Cisco for quite a while.  I feel it's one of the better ways of looking at offline configuration files when looking for typos.  The regex is more advanced then what is available with SecureCRT.  Groups can be used for things such interfaces where the interface name matches one regex, a next group can be called to match the interface shelf / module / number, and then a third group can be called to match sub-interfaces.  And each group is given a different color.  I've tried multiple times and haven't been able to get this to work in SecureCRT.
+
+https://www.vim.org/scripts/script.php?script_id=4624
+
+One thing I did notice is this syntax configuration can match non-zero error counters from the output of "show interface".  Wait, I can do that.
+
+![VIM Cisco Syntax Highlighting](resources/vim_cisco_syntax.png)
+
+I'd avoided using the "Phases and substrings" feature in SecureCRT because I knew I'd have to completely rewrite the regex I was using.  But now I have a reason.
+
+One of the problems of syntax highlighting is matching or coloring too much.  It can be overdone and ruin the entire point of it, to highlight important things.  I keep adding more and more regex to match more and more things.  But even I was noticing the result of what I was doing was becoming a little too much.  Compare these two screenshots.  Being about to match on non-zero error counters makes it easier to point out actual problems.
+
+![SecureCRT - Phrases and substrings](resources/show_interface_phrases.png)
+
+![SecureCRT - Whole Words](resources/show_interface_whole_words.png)
+
+Uploaded feralpacket2024_phrases.ini.  Place in the usual spot in %appdata%\VanDyke\Config\Keywords.
+
+Note:
+ - Still some issues with matching route-targets.  Need to lab up L3VPN, L2VPN, and Inter-AS VPNs more.
+
+Settings:
+ - Terminal -> Apperance
+   - Current color scheme:  White / Black
+ - Terminal -> Advanced Keyword Highlighting
+   - Highlight style:  select Color
+   - Match style:  select Phrases and substrings
+
+![SecureCRT - Current color scheme](resources/Current_color_scheme.png)
+
+![SecureCRT - Current Advancd Keyword Highlighting](resources/Advance_Keyword_Highlighting.png)
+
 ### Borked
 At some point, the line Z:"Keyword List V2" ended up in the .ini files, twice.  Causes the files to be twice as long.  Also means only half the the regular expressions were being used, the bottom half.  Which was causing a lot of confusion for me.  Copied and pasted each regular expression line out and back into a new list name.
 
