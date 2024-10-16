@@ -22,10 +22,10 @@ One of the problems of syntax highlighting is matching or coloring too much.  It
 
 Uploaded **feralpacket2024_phrases.ini**.  Place in the usual spot in **%appdata%\VanDyke\Config\Keywords**.
 
-Note:
+**Note:**
  - Still some issues with matching route-targets.  Need to lab up L3VPN, L2VPN, and Inter-AS VPNs more.
 
-Settings:
+**Settings:**
  - Terminal -> Apperance
    - Current color scheme:  White / Black
  - Terminal -> Advanced Keyword Highlighting
