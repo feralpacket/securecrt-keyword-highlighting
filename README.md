@@ -20,7 +20,7 @@ One of the problems of syntax highlighting is matching or coloring too much.  It
 
 ![SecureCRT - Whole Words](resources/show_interfaces_whole_words.png)
 
-Uploaded feralpacket2024_phrases.ini.  Place in the usual spot in %appdata%\VanDyke\Config\Keywords.
+Uploaded **feralpacket2024_phrases.ini**.  Place in the usual spot in **%appdata%\VanDyke\Config\Keywords**.
 
 Note:
  - Still some issues with matching route-targets.  Need to lab up L3VPN, L2VPN, and Inter-AS VPNs more.
