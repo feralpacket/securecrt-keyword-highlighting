@@ -1,0 +1,64 @@
+! ipv6 address test
+!
+conf t
+!
+ipv6 unicast-routing
+!
+int e0/0
+!
+ipv6 add 1:2:3:4:5:6:7:8/128
+ipv6 add 1234:5678:90ab:cded:1234:5678:09AB:CDEF/128
+ipv6 add aaaa:bbbb:cccc:dddd:eeee:ffff:AAAA:BBBB/128
+ipv6 add BBBB:CCCC:DDDD:EEEE:FFFF:aaaa:bbbb:cccc/128
+ipv6 add 1::/128
+ipv6 add 1:2::/128
+ipv6 add 1:2:3::/128
+ipv6 add 1:2:3:4::/128
+ipv6 add 1:2:3:4:5::/128
+ipv6 add 1:2:3:4:5:6::/128
+ipv6 add 1:2:3:4:5:6:7::/128
+ipv6 add 1::8/128
+ipv6 add 1:2::8/128
+ipv6 add 1:2:3::8/128
+ipv6 add 1:2:3:4::8/128
+ipv6 add 1:2:3:4:5::8/128
+ipv6 add 1:2:3:4:5:6::8/128
+ipv6 add 1::7:8/128
+ipv6 add 1:2::7:8/128
+ipv6 add 1:2:3::7:8/128
+ipv6 add 1:2:3:4::7:8/128
+ipv6 add 1:2:3:4:5::7:8/128
+ipv6 add 1::6:7:8/128
+ipv6 add 1:2::6:7:8/128
+ipv6 add 1:2:3::6:7:8/128
+ipv6 add 1:2:3:4::6:7:8/128
+ipv6 add 1::5:6:7:8/128
+ipv6 add 1:2::5:6:7:8/128
+ipv6 add 1:2:3::5:6:7:8/128
+ipv6 add 1::4:5:6:7:8/128
+ipv6 add 1:2::4:5:6:7:8/128
+ipv6 add 1::3:4:5:6:7:8/128
+ipv6 add ::6:7:8/128
+ipv6 add ::D:E:F/128
+ipv6 add ::d:e:f/128
+ipv6 add ::5:6:7:8/128
+ipv6 add ::C:D:E:F/128
+ipv6 add ::c:d:e:f/128
+ipv6 add ::4:5:6:7:8/128
+ipv6 add ::B:C:D:E:F/128
+ipv6 add ::b:c:d:e:f/128
+ipv6 add ::3:4:5:6:7:8/128
+ipv6 add ::A:B:C:D:E:F/128
+ipv6 add ::a:b:c:d:e:f/128
+ipv6 add ::2:3:4:5:6:7:8/128
+ipv6 add ::f:A:B:C:D:E:F/128
+ipv6 add ::F:a:b:c:d:e:f/128
+!
+! Cisco says these are invalid
+!
+ipv6 add ::/0
+ipv6 add ::8/128
+ipv6 add ::F/128
+ipv6 add ::7:8/128
+ipv6 add ::e:f/128
+
