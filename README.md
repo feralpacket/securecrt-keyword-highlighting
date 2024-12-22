@@ -2,6 +2,16 @@
 
 ## New:
 
+### Comments
+
+At some point, I realized I could add comments to each line of regex.  This makes it easier to remind myself what I'm doing and why I have some one off regex in a weird location.
+ ```
+"(?#non-zero error counters in "sh ip traffic")
+"(?#match partial or false matches and turn them white if they are a zero counter)
+"(?#logging - warnings or things that may need attention,before partial matches with good stuff)
+```
+
+
 ### Phrases and substrings
 
 I've been using VIMs syntax highlighting for Cisco for quite a while.  I feel it's one of the better ways of looking at offline configuration files when looking for typos.  The regex is more advanced then what is available with SecureCRT.  Groups can be used for things such interfaces where the interface name matches one regex, a next group can be called to match the interface shelf / module / number, and then a third group can be called to match sub-interfaces.  And each group is given a different color.  I've tried multiple times and haven't been able to get this to work in SecureCRT.
