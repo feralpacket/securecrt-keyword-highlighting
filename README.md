@@ -6,9 +6,9 @@
 
 At some point, I realized I could add comments to each line of regex.  This makes it easier to remind myself what I'm doing and why I have some one off regex in a weird location.
  ```
-"(?#non-zero error counters in "sh ip traffic")
-"(?#match partial or false matches and turn them white if they are a zero counter)
-"(?#logging - warnings or things that may need attention,before partial matches with good stuff)
+(?#non-zero error counters in "sh ip traffic")
+(?#match partial or false matches and turn them white if they are a zero counter)
+(?#logging - warnings or things that may need attention,before partial matches with good stuff)
 ```
 
 
