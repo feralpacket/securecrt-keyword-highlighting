@@ -1,7 +1,9 @@
 # securecrt-keyword-highlighting
 
 ## TODO / Note-to-self
-Change MD5 from green to red.  Go through the deprecated features and find out what else should be highlighted as a warning or bad.
+Change MD5 from green to red.  Was using it mostly to highlight if NTP authentication was working with "show ntp associations detail".  Already added "authtype \(sha1\)".  Need to add the new NTP authentication key types sha2, cmac-aes-128, hmac-sha1, and hmac-sha2-256.
+
+Go through the deprecated features and find out what else should be highlighted as a warning or bad.  Check to see if anything from the new or replacement features needs to be highlighted.
 
 https://www.cisco.com/c/en/us/about/trust-center/resilient-infrastructure/feature-deprecation-and-removal-details.html
 
