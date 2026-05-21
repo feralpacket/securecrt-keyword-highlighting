@@ -1,5 +1,10 @@
 # securecrt-keyword-highlighting
 
+## TODO / Note-to-self
+Change MD5 from green to red.  Go through the deprecated features and find out what else should be highlighted as a warning or bad.
+
+https://www.cisco.com/c/en/us/about/trust-center/resilient-infrastructure/feature-deprecation-and-removal-details.html
+
 ## New:
 
 ### Comments
