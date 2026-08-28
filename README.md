@@ -9,8 +9,8 @@ https://www.cisco.com/c/en/us/about/trust-center/resilient-infrastructure/featur
 
 ## New:
 
-###
-Terminal / Keyword Highlighting help mentions, "The regular expressions should use ECMAScript syntax."
+### ECMAScript regular expression syntax
+The Terminal / Keyword Highlighting help section mentions, "The regular expressions should use ECMAScript syntax."
 
 
 ### Comments
