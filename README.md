@@ -9,6 +9,10 @@ https://www.cisco.com/c/en/us/about/trust-center/resilient-infrastructure/featur
 
 ## New:
 
+###
+Terminal / Keyword Highlighting help mentions, "The regular expressions should use ECMAScript syntax."
+
+
 ### Comments
 
 At some point, I realized I could add comments to each line of regex.  This makes it easier to remind myself what I'm doing and why I have some one off regex in a weird location.
